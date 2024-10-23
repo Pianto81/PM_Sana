@@ -1,0 +1,1949 @@
+// Created by Crowbar 0.72
+
+$modelname "pianto/hestia/hestia_pm.mdl"
+
+$bodygroup "hair"
+{
+	studio "Hair.smd"
+}
+
+$bodygroup "body"
+{
+	studio "Body.smd"
+}
+
+$surfaceprop "flesh"
+
+$contents "solid"
+
+$illumposition -0.637 0 35.954
+
+$ambientboost
+
+$mostlyopaque
+
+$cdmaterials "models\yourname\character_name_mats\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -13 -13 0 13 13 72
+
+$jigglebone "ribbonBL_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBL_01_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLA_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLA_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLA_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLB_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLB_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLB_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLC_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLC_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLC_03_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLC_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLD_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLD_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBLD_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBM_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBM_01_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBR_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBR_01_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRA_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRA_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRA_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRB_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRB_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRB_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRC_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRC_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRC_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRD_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRD_02_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonBRD_04_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonIBL_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonIBL_01_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonIBR_00_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "ribbonIBR_01_JNT"{
+    is_flexible
+    {
+        length 300
+        tip_mass 0
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breast_L"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breastFront_L_JNT"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breastM_L"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breast_R"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breastFront_R_JNT"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "breastM_R"{
+    is_flexible
+    {
+        length 9
+        tip_mass 0.2
+        pitch_stiffness 100
+        pitch_damping 5
+        yaw_stiffness 100
+        yaw_damping 5
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 15
+    }
+}
+$jigglebone "HairBLAll_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLAll_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLI_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLI_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLI_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLIA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMB_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMBEnd_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAI_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAI_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAI_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAI_04_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAIEndA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAIEndA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAIEndB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLMAIEndB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLO_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLO_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLO_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOA_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOAEnd_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBLOB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMM_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMM_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMM_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMM_04_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMM_05_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMMA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMMB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBMMB_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRAll_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRAll_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRDnO_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRI_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRI_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRI_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRIA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRIA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMB_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMBEnd_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAI_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAI_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAI_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAIEndA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAIEndA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAIEndB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRMAIEndB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRO_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRO_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBRO_03_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROA_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROAEnd_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairBROB_02_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairLA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairLB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairLB_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairRA_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairRA_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairRB_00_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+$jigglebone "HairRB_01_JNT"{
+    is_flexible
+    {
+        length 5
+        tip_mass 0
+        pitch_stiffness 200
+        pitch_damping 14
+        yaw_stiffness 200
+        yaw_damping 14
+        along_stiffness 100
+        along_damping 0
+        angle_constraint 39.999999
+    }
+}
+
+
+//definebones go here
+$definebone "ValveBiped.Bip01_Pelvis" "" 0.000000 -0.052798 53.544529 -0.000000 0.000057 89.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "ValveBiped.Bip01_L_Thigh" "ValveBiped.Bip01_Pelvis" 3.123362 0.004696 -0.123304 -0.362281 -90.000038 -90.016655 -0.000004 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone "ValveBiped.Bip01_L_Calf" "ValveBiped.Bip01_L_Thigh" 22.403744 0.000070 0.000003 -0.001146 3.936564 -0.284703 0.000002 0.000000 0.000000 0.000000 -0.000000 0.000000
+$definebone "ValveBiped.Bip01_L_Foot" "ValveBiped.Bip01_L_Calf" 23.572702 0.000188 0.000001 1.021412 -61.683376 0.484894 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000
+$definebone "ValveBiped.Bip01_R_Thigh" "ValveBiped.Bip01_Pelvis" -3.123362 0.004700 -0.123309 -0.362281 -89.999985 -89.983597 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "ValveBiped.Bip01_R_Calf" "ValveBiped.Bip01_R_Thigh" 22.403788 0.000078 -0.000001 0.001146 3.936507 0.286250 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone "ValveBiped.Bip01_R_Foot" "ValveBiped.Bip01_R_Calf" 23.572748 0.000195 -0.000001 -1.122481 -61.675468 -0.102789 0.000000 0.000000 0.000000 -0.000000 0.000001 -0.000000
+$definebone "ValveBiped.Bip01_Spine" "ValveBiped.Bip01_Pelvis" 0.000001 3.267235 0.142704 4.944282 89.999695 89.999931 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "ValveBiped.Bip01_Spine1" "ValveBiped.Bip01_Spine" 3.242767 0.423777 -0.000016 0.000057 -1.674812 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "ValveBiped.Bip01_Spine2" "ValveBiped.Bip01_Spine1" 0.000000 0.000001 0.000000 -0.002521 5.748371 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000
+$definebone "ValveBiped.Bip01_Spine4" "ValveBiped.Bip01_Spine2" 3.264679 0.192347 -0.000155 0.002979 11.121111 0.000516 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone "ValveBiped.Bip01_R_Clavicle" "ValveBiped.Bip01_Spine4" 5.308537 -3.098828 -0.448797 64.042511 169.573257 -90.208290 0.000000 0.000000 0.000000 0.000000 -0.000002 0.000001
+$definebone "ValveBiped.Bip01_R_UpperArm" "ValveBiped.Bip01_R_Clavicle" 2.987822 1.131599 5.460082 18.279587 -23.928265 69.506371 0.000000 -0.000001 0.000000 0.000003 0.000000 -0.000002
+$definebone "ValveBiped.Bip01_R_Forearm" "ValveBiped.Bip01_R_UpperArm" 17.306236 -0.000023 0.000000 -6.635476 14.513427 -0.055461 0.000000 0.000000 0.000000 0.000003 0.000001 0.000003
+$definebone "ValveBiped.Bip01_L_Clavicle" "ValveBiped.Bip01_Spine4" 5.308529 -3.098827 0.448849 -63.944881 170.169815 89.633728 0.000000 0.000000 0.000000 0.000000 -0.000002 0.000000
+$definebone "ValveBiped.Bip01_L_UpperArm" "ValveBiped.Bip01_L_Clavicle" 3.274660 1.341034 0.040680 -0.021715 -24.902065 -90.187569 0.000000 0.000000 0.000000 -0.000002 0.000000 0.000000
+$definebone "ValveBiped.Bip01_L_Forearm" "ValveBiped.Bip01_L_UpperArm" 16.254150 0.000181 0.000000 0.153954 -2.593207 -0.017360 0.000000 -0.000000 0.000000 0.000002 0.000000 0.000000
+$definebone "ValveBiped.Bip01_L_Hand" "ValveBiped.Bip01_L_Forearm" 5.225441 -0.000056 0.000004 -6.115579 7.728686 90.151985 0.000000 0.000000 0.000000 0.000001 -0.000003 -0.000000
+$definebone "ValveBiped.Bip01_R_Hand" "ValveBiped.Bip01_R_Forearm" 5.225435 -0.000023 0.000000 6.094723 7.462606 -89.591919 0.000000 0.000000 0.000002 -0.000001 0.000000 -0.000003
+$definebone "ValveBiped.Bip01_Neck1" "ValveBiped.Bip01_Spine4" 6.260738 -3.335843 0.000030 -0.001089 21.370237 179.999741 0.000000 0.000000 -0.000000 -0.000000 0.000000 0.000000
+$definebone "ValveBiped.Bip01_Head1" "ValveBiped.Bip01_Neck1" 4.034637 1.445919 0.000063 0.000573 17.346067 -0.000229 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "HairBLAll_00_JNT" "ValveBiped.Bip01_Head1" -0.220085 3.565327 -1.587127 18.505417 -177.796280 -133.689423 -0.000008 0.000000 0.000000 0.000003 -0.000003 -0.000009
+$definebone "HairBLAll_01_JNT" "HairBLAll_00_JNT" 5.174484 0.000029 -0.000012 0.000003 -0.000003 -0.000009 -0.000004 0.000000 0.000000 0.000003 -0.000003 -0.000009
+$definebone "HairBLMA_00_JNT" "HairBLAll_01_JNT" 3.245647 -0.029354 1.282517 -10.608654 13.616164 9.483985 0.000000 0.000000 0.000000 0.000002 -0.000010 -0.000009
+$definebone "HairBLMA_01_JNT" "HairBLMA_00_JNT" 10.771545 0.000103 -0.000058 0.000347 12.644767 0.000106 0.000000 0.000004 0.000000 0.000003 -0.000010 -0.000009
+$definebone "HairBLMB_00_JNT" "HairBLMA_01_JNT" 10.598228 -1.317448 -1.750553 -12.522224 -4.225519 1.085976 0.000000 0.000000 0.000000 -0.000003 -0.000010 -0.000005
+$definebone "HairBLMB_01_JNT" "HairBLMB_00_JNT" 11.699921 -0.000008 0.000000 -0.000061 -16.782803 -0.000003 0.000002 0.000000 0.000000 -0.000005 -0.000009 -0.000003
+$definebone "HairBLMB_02_JNT" "HairBLMB_01_JNT" 11.699917 0.000023 -0.000006 0.000168 -49.958820 0.000002 0.000000 0.000002 0.000000 -0.000004 0.000006 0.000003
+$definebone "HairBLMBEnd_00_JNT" "HairBLMB_02_JNT" 6.876648 0.954273 0.160429 51.173676 -33.687920 22.695330 0.000000 0.000000 -0.000002 0.000003 -0.000005 0.000003
+$definebone "HairBLMAI_00_JNT" "HairBLAll_01_JNT" 2.781036 0.115608 -1.380639 5.111533 12.441258 -4.048302 0.000004 -0.000004 0.000000 0.000005 -0.000003 -0.000010
+$definebone "HairBLMAI_01_JNT" "HairBLMAI_00_JNT" 9.009098 0.000099 -0.000032 0.000294 12.555621 0.000106 0.000000 0.000000 0.000000 0.000010 -0.000004 -0.000009
+$definebone "HairBLMAI_03_JNT" "HairBLMAI_01_JNT" 18.013733 0.282509 0.000022 -0.000220 -8.043816 0.000389 0.000002 0.000004 0.000000 0.000007 -0.000002 -0.000010
+$definebone "HairBLMAI_04_JNT" "HairBLMAI_03_JNT" 9.009070 0.000000 -0.000024 -0.000108 -14.674252 -0.000468 0.000000 0.000000 -0.000000 0.000005 -0.000001 -0.000010
+$definebone "HairBLMAIEndA_00_JNT" "HairBLMAI_04_JNT" 7.737326 0.018444 2.415873 28.765230 -51.843559 22.098917 0.000000 0.000000 0.000002 -0.000000 0.000010 -0.000008
+$definebone "HairBLMAIEndA_01_JNT" "HairBLMAIEndA_00_JNT" 9.133198 0.000033 -0.000011 0.000174 18.864759 -0.000180 0.000000 0.000000 0.000000 0.000002 0.000010 -0.000009
+$definebone "HairBLMAIEndB_00_JNT" "HairBLMAI_04_JNT" 4.853424 -0.961666 -5.172061 41.262009 -54.238285 -0.091460 0.000000 0.000000 0.000004 -0.000005 0.000012 -0.000001
+$definebone "HairBLMAIEndB_02_JNT" "HairBLMAIEndB_00_JNT" 12.674629 -0.000057 1.303680 -66.068901 -0.000445 0.000286 0.000000 0.000000 0.000000 0.000007 0.000006 -0.000012
+$definebone "HairBLO_00_JNT" "HairBLAll_01_JNT" 3.625370 0.435425 3.099094 -14.618842 10.906476 46.246857 0.000000 0.000000 0.000000 -0.000001 -0.000007 0.000004
+$definebone "HairBLO_01_JNT" "HairBLO_00_JNT" 6.408894 0.000023 -0.000011 0.000056 9.316171 0.000005 0.000000 0.000000 0.000002 -0.000001 -0.000005 0.000004
+$definebone "HairBLO_03_JNT" "HairBLO_01_JNT" 12.658590 1.419628 -0.000017 -0.000059 12.797469 -0.000054 0.000000 0.000000 0.000000 -0.000001 -0.000003 0.000004
+$definebone "HairBLOA_00_JNT" "HairBLO_03_JNT" 8.608656 -0.259583 2.134562 -48.292442 -37.308941 29.153532 0.000000 0.000000 0.000000 -0.000003 0.000005 0.000010
+$definebone "HairBLOA_01_JNT" "HairBLOA_00_JNT" 7.022789 -0.000034 0.000046 -0.000974 -28.623074 0.000067 0.000000 0.000000 0.000001 -0.000000 0.000004 0.000010
+$definebone "HairBLOA_02_JNT" "HairBLOA_01_JNT" 7.022793 0.000040 -0.000078 0.000289 -24.829470 -0.000563 0.000000 -0.000001 0.000000 0.000002 0.000001 0.000010
+$definebone "HairBLOAEnd_00_JNT" "HairBLOA_02_JNT" 4.395378 -0.784797 -2.695166 69.983543 60.992435 32.351223 0.000000 0.000000 0.000000 0.000003 -0.000007 0.000012
+$definebone "HairBLOB_00_JNT" "HairBLO_03_JNT" 9.410780 -0.163708 -1.788971 -13.915317 -20.515329 -3.765760 0.000000 0.000000 0.000000 -0.000003 -0.000002 0.000004
+$definebone "HairBLOB_02_JNT" "HairBLOB_00_JNT" 13.258242 -1.396439 0.198900 -1.586349 -32.157028 0.612955 0.000000 0.000000 0.000000 -0.000001 0.000002 0.000006
+$definebone "HairBMM_00_JNT" "ValveBiped.Bip01_Head1" 0.046097 6.585772 0.008002 1.755012 -172.541473 169.827591 0.000000 0.000001 0.000000 0.000000 -0.000001 0.000003
+$definebone "HairBMM_01_JNT" "HairBMM_00_JNT" 8.733482 -0.000110 -0.000001 0.000057 19.607531 -0.000055 0.000000 0.000000 0.000000 -0.000001 -0.000006 0.000002
+$definebone "HairBMM_03_JNT" "HairBMM_01_JNT" 17.316261 1.615181 0.000013 0.000055 22.036293 -0.000055 0.000000 0.000000 0.000000 -0.000001 -0.000010 0.000002
+$definebone "HairBMM_04_JNT" "HairBMM_03_JNT" 8.733464 0.000015 0.000018 -0.000058 -0.349457 0.000059 0.000000 0.000000 0.000000 -0.000001 -0.000010 0.000002
+$definebone "HairBMM_05_JNT" "HairBMM_04_JNT" 8.733473 -0.000011 0.000006 -0.000001 -20.273432 0.000060 0.000000 0.000004 0.000000 -0.000001 -0.000007 0.000002
+$definebone "HairBLI_00_JNT" "HairBLAll_01_JNT" 2.455151 -0.717234 -2.184029 14.016898 2.789100 -21.697519 0.000000 0.000000 0.000000 0.000002 -0.000001 -0.000003
+$definebone "HairBLI_01_JNT" "HairBLI_00_JNT" 7.934509 0.000008 0.000004 0.000059 12.583125 0.000053 0.000000 0.000000 0.000000 0.000003 -0.000002 -0.000003
+$definebone "HairBLI_03_JNT" "HairBLI_01_JNT" 15.821478 0.867012 0.000026 -0.000055 -10.200426 0.000109 0.000000 0.000000 0.000000 0.000003 -0.000002 -0.000005
+$definebone "HairBLIA_01_JNT" "HairBLI_03_JNT" 9.388016 -0.759506 -5.232552 19.546051 -26.892458 9.664245 -0.000004 0.000000 -0.000002 -0.000003 0.000003 -0.000010
+$definebone "HairBMMB_00_JNT" "HairBMM_04_JNT" 2.627017 1.581554 -2.492677 13.164046 8.590691 -5.274019 -0.000000 0.000004 0.000000 -0.000000 -0.000009 -0.000001
+$definebone "HairBMMB_01_JNT" "HairBMMB_00_JNT" 5.404483 0.000019 0.000018 -0.000231 -15.258047 0.000113 0.000000 0.000000 -0.000000 -0.000002 -0.000006 0.000000
+$definebone "HairBRAll_00_JNT" "ValveBiped.Bip01_Head1" -0.220222 3.565310 1.587133 -18.502510 -177.796234 133.689255 0.000008 0.000000 0.000000 -0.000003 -0.000001 0.000005
+$definebone "HairBRAll_01_JNT" "HairBRAll_00_JNT" 5.174480 0.000019 0.000005 0.000055 -0.000003 -0.000053 0.000000 0.000000 0.000000 -0.000003 -0.000003 0.000005
+$definebone "HairBRI_00_JNT" "HairBRAll_01_JNT" 2.455044 -0.717186 2.184035 -14.016902 2.789160 21.697458 0.000000 -0.000004 0.000000 -0.000003 0.000003 0.000003
+$definebone "HairBRI_01_JNT" "HairBRI_00_JNT" 7.934509 0.000000 0.000002 -0.000062 12.583132 0.000000 0.000000 0.000000 0.000000 -0.000006 0.000003 0.000003
+$definebone "HairBRI_03_JNT" "HairBRI_01_JNT" 15.821493 0.867058 0.000008 0.000052 -10.200251 0.000003 0.000000 0.000000 -0.000000 -0.000005 0.000006 0.000003
+$definebone "HairBRIA_00_JNT" "HairBRI_03_JNT" 6.176479 0.650768 2.775494 -35.010658 -23.708941 -11.136861 0.000000 0.000002 0.000000 -0.000007 -0.000002 0.000009
+$definebone "HairBRIA_01_JNT" "HairBRIA_00_JNT" 4.282522 0.000004 0.000065 15.718229 -0.000004 0.000009 0.000000 0.000000 0.000002 -0.000009 -0.000004 0.000003
+$definebone "HairBRMA_00_JNT" "HairBRAll_01_JNT" 3.245605 -0.029318 -1.282521 10.608653 13.616167 -9.483993 0.000000 0.000000 0.000000 -0.000002 -0.000005 0.000003
+$definebone "HairBRMA_01_JNT" "HairBRMA_00_JNT" 10.771553 0.000103 0.000069 -0.000345 12.644775 -0.000169 -0.000002 0.000000 0.000000 -0.000003 -0.000002 0.000003
+$definebone "HairBRMB_00_JNT" "HairBRMA_01_JNT" 10.598206 -1.317333 1.750527 12.522221 -4.225511 -1.085920 0.000000 -0.000004 0.000000 -0.000003 -0.000007 0.000003
+$definebone "HairBRMB_01_JNT" "HairBRMB_00_JNT" 11.699860 -0.000065 0.000031 0.000055 -16.782797 0.000061 0.000000 0.000000 0.000000 -0.000002 -0.000005 0.000003
+$definebone "HairBRMB_02_JNT" "HairBRMB_01_JNT" 11.699972 0.000076 -0.000010 -0.000169 -49.958939 -0.000055 0.000000 0.000000 0.000000 0.000003 0.000008 0.000003
+$definebone "HairBRMBEnd_00_JNT" "HairBRMB_02_JNT" 6.876678 0.954288 -0.160410 -51.173729 -33.687847 -22.695253 0.000000 0.000000 -0.000002 -0.000009 0.000005 -0.000007
+$definebone "HairBRMAI_00_JNT" "HairBRAll_01_JNT" 2.780937 0.115671 1.380631 -5.111590 12.441319 4.048354 0.000000 -0.000004 -0.000000 -0.000005 -0.000001 0.000005
+$definebone "HairBRMAI_01_JNT" "HairBRMAI_00_JNT" 9.009117 0.000057 0.000051 -0.000348 12.555682 -0.000111 0.000000 0.000004 0.000000 -0.000005 0.000000 0.000005
+$definebone "HairBRMAI_03_JNT" "HairBRMAI_01_JNT" 18.013756 0.282539 -0.000064 0.000055 -8.043754 -0.000171 0.000000 -0.000004 0.000000 -0.000002 0.000004 0.000002
+$definebone "HairBRMAIEndA_00_JNT" "HairBRMAI_03_JNT" 16.498659 -1.942295 -2.415824 -28.764946 -66.517776 -22.098864 0.000000 -0.000001 0.000000 0.000002 0.000000 0.000001
+$definebone "HairBRMAIEndA_01_JNT" "HairBRMAIEndA_00_JNT" 9.133171 0.000092 -0.000019 -0.000057 18.864576 0.000003 0.000000 -0.000001 0.000000 0.000001 -0.000002 0.000001
+$definebone "HairBRMAIEndB_00_JNT" "HairBRMAI_03_JNT" 13.460517 -2.159977 5.172046 -41.261723 -68.912727 0.091444 0.000000 0.000001 0.000000 -0.000003 -0.000002 0.000006
+$definebone "HairBRMAIEndB_02_JNT" "HairBRMAIEndB_00_JNT" 12.674593 0.000031 -1.303642 66.068855 -0.000650 -0.000274 -0.000004 0.000000 0.000000 0.000005 -0.000006 0.000000
+$definebone "HairBRO_00_JNT" "HairBRAll_01_JNT" 3.625362 0.435450 -3.099093 14.618672 10.906592 -46.246803 0.000000 0.000000 0.000000 0.000001 0.000002 -0.000003
+$definebone "HairBRO_01_JNT" "HairBRO_00_JNT" 6.408878 0.000015 0.000004 0.000059 9.316175 -0.000060 0.000000 0.000000 0.000000 0.000001 -0.000002 -0.000003
+$definebone "HairBRO_03_JNT" "HairBRO_01_JNT" 12.658493 1.419697 0.000015 0.000117 12.797468 -0.000002 0.000000 0.000000 0.000000 0.000002 -0.000002 -0.000003
+$definebone "HairBROA_00_JNT" "HairBRO_03_JNT" 8.608707 -0.259651 -2.134561 48.292435 -37.308956 -29.153591 0.000004 0.000000 0.000000 0.000002 0.000002 0.000000
+$definebone "HairBROA_01_JNT" "HairBROA_00_JNT" 7.022793 0.000000 -0.000027 0.000917 -28.622959 0.000114 0.000000 0.000002 0.000000 -0.000000 0.000006 0.000000
+$definebone "HairBROA_02_JNT" "HairBROA_01_JNT" 7.022736 0.000061 0.000093 -0.000231 -24.829350 0.000514 0.000000 -0.000000 0.000000 -0.000002 0.000007 -0.000003
+$definebone "HairBROAEnd_00_JNT" "HairBROA_02_JNT" 4.395359 -0.784760 2.695222 -69.983528 60.992435 -32.351219 0.000000 0.000000 0.000000 0.000005 -0.000002 -0.000009
+$definebone "HairBROB_00_JNT" "HairBRO_03_JNT" 9.410801 -0.163692 1.788986 13.914457 -20.514524 3.765992 0.000000 0.000000 0.000000 0.000003 -0.000002 -0.000003
+$definebone "HairBROB_02_JNT" "HairBROB_00_JNT" 13.258327 -1.396622 -0.199080 1.587151 -32.157768 -0.613356 0.000000 0.000000 0.000000 0.000001 0.000003 -0.000005
+$definebone "HairLA_00_JNT" "ValveBiped.Bip01_Head1" 3.129303 -0.619230 -3.144522 -5.305073 -169.266068 -69.241547 0.000000 -0.000000 0.000000 -0.000000 0.000001 0.000005
+$definebone "HairLB_00_JNT" "ValveBiped.Bip01_Head1" 4.326790 0.691875 -3.708176 17.985657 170.986816 -67.531502 0.000000 0.000000 0.000000 0.000001 -0.000005 0.000002
+$definebone "HairLB_01_JNT" "HairLB_00_JNT" 1.984215 0.000030 -0.000042 -14.460481 0.000053 0.000004 0.000000 0.000000 0.000002 -0.000001 -0.000003 0.000005
+$definebone "HairRA_00_JNT" "ValveBiped.Bip01_Head1" 3.995605 -1.773804 2.424064 -2.781481 -177.260071 61.842434 0.000000 0.000000 0.000000 0.000001 -0.000001 -0.000007
+$definebone "HairRA_01_JNT" "HairRA_00_JNT" 2.203087 -0.000015 -0.000024 0.000169 -20.468285 -0.000294 0.000000 0.000000 0.000000 -0.000002 0.000004 -0.000007
+$definebone "HairRB_00_JNT" "ValveBiped.Bip01_Head1" 4.298874 -0.429497 3.150476 -8.289666 -178.000687 71.127037 0.000008 0.000000 0.000002 0.000001 -0.000003 -0.000007
+$definebone "HairRB_01_JNT" "HairRB_00_JNT" 2.146439 0.000010 0.000010 0.000171 -10.080849 -0.000009 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000009
+$definebone "HairBMMA_00_JNT" "HairBMM_05_JNT" 3.773212 -0.066170 0.791359 -21.673328 -27.983427 24.411209 -0.000004 0.000000 0.000000 0.000007 -0.000004 0.000001
+$definebone "ValveBiped.Bip01_L_Toe0" "ValveBiped.Bip01_L_Foot" 7.816878 3.167371 -0.246222 -0.232907 -31.820076 -0.046811 0.000000 -0.000000 0.000000 -0.000000 -0.000006 -0.000000
+$definebone "ValveBiped.Bip01_R_Toe0" "ValveBiped.Bip01_R_Foot" 7.817698 3.167902 0.211400 0.146505 -31.844879 -3.500772 0.000000 -0.000000 0.000000 0.000000 -0.000002 0.000000
+$definebone "ValveBiped.Bip01_L_Finger2" "ValveBiped.Bip01_L_Hand" 4.236078 -0.415100 0.519046 -6.606948 -14.168449 3.892504 0.000002 0.000000 0.000000 -0.000000 0.000003 0.000001
+$definebone "ValveBiped.Bip01_L_Finger21" "ValveBiped.Bip01_L_Finger2" 2.082661 0.000008 0.000000 -1.055617 -8.417721 -1.922673 0.000000 0.000000 0.000000 -0.000000 0.000003 0.000000
+$definebone "ValveBiped.Bip01_L_Finger22" "ValveBiped.Bip01_L_Finger21" 1.293072 -0.000008 0.000000 0.176299 -12.398861 0.000000 0.000000 0.000000 0.000000 0.000000 0.000003 0.000000
+$definebone "ValveBiped.Bip01_L_Finger1" "ValveBiped.Bip01_L_Hand" 4.190872 -0.565865 1.493002 -6.380915 -10.435511 17.033691 -0.000004 0.000000 0.000000 -0.000000 -0.000003 0.000004
+$definebone "ValveBiped.Bip01_L_Finger11" "ValveBiped.Bip01_L_Finger1" 1.684385 -0.000011 -0.000001 -2.310624 -9.651305 -0.845857 0.000000 0.000000 0.000000 -0.000000 -0.000003 0.000002
+$definebone "ValveBiped.Bip01_L_Finger12" "ValveBiped.Bip01_L_Finger11" 1.236599 0.000008 -0.000002 0.148568 -13.997875 -0.000171 0.000000 0.000000 0.000000 0.000000 0.000001 0.000003
+$definebone "ValveBiped.Bip01_L_Finger0" "ValveBiped.Bip01_L_Hand" 0.662788 -0.451782 0.954911 -25.521721 -26.278595 -89.163528 0.000000 -0.000001 0.000000 0.000002 0.000001 0.000000
+$definebone "ValveBiped.Bip01_L_Finger01" "ValveBiped.Bip01_L_Finger0" 1.875080 -0.000014 -0.000004 0.000172 -0.000343 -5.004499 0.000000 0.000000 0.000000 0.000002 0.000000 0.000001
+$definebone "ValveBiped.Bip01_L_Finger02" "ValveBiped.Bip01_L_Finger01" 1.724590 -0.000006 0.000004 0.645608 20.791040 0.000403 0.000000 0.000000 0.000002 -0.000000 0.000000 0.000001
+$definebone "ValveBiped.Bip01_L_Finger4" "ValveBiped.Bip01_L_Hand" 4.210247 -0.906509 -1.095394 -1.705236 -16.007584 -26.854935 0.000000 0.000000 0.000000 0.000001 0.000002 -0.000003
+$definebone "ValveBiped.Bip01_L_Finger41" "ValveBiped.Bip01_L_Finger4" 1.621880 0.000015 0.000000 2.449166 -9.284494 -2.417026 0.000000 0.000000 0.000000 0.000002 0.000005 -0.000005
+$definebone "ValveBiped.Bip01_L_Finger42" "ValveBiped.Bip01_L_Finger41" 0.997677 0.000000 0.000000 0.285276 -13.996153 -0.000461 0.000000 -0.000002 0.000000 0.000001 0.000003 -0.000003
+$definebone "ValveBiped.Bip01_L_Finger3" "ValveBiped.Bip01_L_Hand" 4.206333 -0.530968 -0.351969 -4.892085 -15.301125 -10.006020 0.000000 0.000000 0.000000 -0.000001 0.000000 -0.000003
+$definebone "ValveBiped.Bip01_L_Finger31" "ValveBiped.Bip01_L_Finger3" 2.027931 0.000015 -0.000000 0.430061 -10.230219 -1.279991 0.000000 0.000000 0.000000 -0.000001 0.000002 -0.000003
+$definebone "ValveBiped.Bip01_L_Finger32" "ValveBiped.Bip01_L_Finger31" 1.239754 0.000011 -0.000000 0.421465 -24.683941 0.000110 -0.000004 0.000000 0.000000 -0.000003 -0.000002 -0.000003
+$definebone "ValveBiped.Bip01_R_Finger2" "ValveBiped.Bip01_R_Hand" 4.237345 -0.441483 -0.485884 9.043163 -14.156176 -3.505757 0.000000 0.000000 0.000000 -0.000002 0.000007 0.000000
+$definebone "ValveBiped.Bip01_R_Finger21" "ValveBiped.Bip01_R_Finger2" 2.082664 -0.000008 0.000000 3.754880 -7.613342 1.856497 0.000000 0.000000 0.000000 -0.000001 0.000005 0.000000
+$definebone "ValveBiped.Bip01_R_Finger22" "ValveBiped.Bip01_R_Finger21" 1.293076 0.000000 0.000000 -0.255539 -12.396108 -0.000227 -0.000004 0.000002 0.000000 -0.000000 0.000007 -0.000002
+$definebone "ValveBiped.Bip01_R_Finger1" "ValveBiped.Bip01_R_Hand" 4.234056 -0.259022 -1.455452 7.585617 -10.702389 -16.945515 -0.000002 0.000004 0.000000 -0.000002 0.000000 -0.000009
+$definebone "ValveBiped.Bip01_R_Finger11" "ValveBiped.Bip01_R_Finger1" 1.684376 -0.000008 0.000000 5.397261 -8.336995 1.266401 -0.000004 0.000000 0.000000 -0.000001 0.000000 -0.000007
+$definebone "ValveBiped.Bip01_R_Finger12" "ValveBiped.Bip01_R_Finger11" 1.236599 -0.000004 0.000000 -0.240873 -13.998329 -0.000009 -0.000004 0.000000 0.000000 -0.000001 0.000003 -0.000009
+$definebone "ValveBiped.Bip01_R_Finger0" "ValveBiped.Bip01_R_Hand" 0.690863 -0.144588 -1.028131 30.795746 -18.767174 108.021278 0.000000 -0.000001 0.000000 0.000003 -0.000007 -0.000004
+$definebone "ValveBiped.Bip01_R_Finger01" "ValveBiped.Bip01_R_Finger0" 1.875080 0.000015 0.000000 -0.000169 0.000165 7.152341 0.000000 0.000000 0.000000 0.000003 -0.000009 -0.000006
+$definebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01" 1.724594 0.000004 0.000000 -0.551352 20.792063 -0.000577 0.000000 0.000000 0.000002 0.000007 -0.000004 -0.000005
+$definebone "ValveBiped.Bip01_R_Finger4" "ValveBiped.Bip01_R_Hand" 4.113787 -1.437149 0.871298 5.029939 -17.541729 27.058846 0.000000 0.000000 0.000000 0.000001 0.000005 0.000008
+$definebone "ValveBiped.Bip01_R_Finger41" "ValveBiped.Bip01_R_Finger4" 1.621885 0.000008 -0.000000 0.705371 -9.574521 2.086204 0.000000 0.000000 0.000000 0.000003 0.000003 0.000008
+$definebone "ValveBiped.Bip01_R_Finger42" "ValveBiped.Bip01_R_Finger41" 0.997692 0.000004 0.000000 -0.351390 -13.995807 0.000178 0.000000 -0.000002 0.000000 0.000005 0.000005 0.000006
+$definebone "ValveBiped.Bip01_R_Finger3" "ValveBiped.Bip01_R_Hand" 4.160637 -0.837200 0.295460 7.802655 -15.808652 9.579738 0.000000 0.000000 0.000000 0.000001 0.000000 0.000002
+$definebone "ValveBiped.Bip01_R_Finger31" "ValveBiped.Bip01_R_Finger3" 2.027939 0.000008 0.000002 3.054613 -9.777985 1.202239 0.000000 0.000000 0.000000 0.000002 -0.000002 0.000002
+$definebone "ValveBiped.Bip01_R_Finger32" "ValveBiped.Bip01_R_Finger31" 1.239761 0.000008 0.000000 -0.553532 -24.682051 0.000288 0.000000 0.000000 -0.000000 0.000003 -0.000002 0.000001
+$definebone "breast_L" "ValveBiped.Bip01_Spine4" 1.974171 0.686860 1.856989 13.715846 -100.250351 -179.999664 -0.000000 0.000000 0.000000 0.000003 -0.000001 0.000000
+$definebone "breastFront_L_JNT" "breast_L" -3.635117 0.842491 0.185892 76.284180 -179.999786 0.000229 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000001
+$definebone "breastM_L" "breast_L" -1.956975 0.000000 0.000000 0.000003 -0.000001 -0.000057 0.000000 0.000000 0.000000 0.000003 -0.000001 0.000000
+$definebone "breast_R" "ValveBiped.Bip01_Spine4" 1.974194 0.686861 -1.856969 13.715725 79.749512 179.999710 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "breastFront_R_JNT" "breast_R" 3.635122 -0.842484 -0.185894 -76.284233 -0.000057 0.000057 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000
+$definebone "breastM_R" "breast_R" 1.956977 -0.000008 -0.000000 -0.000000 0.000000 -0.000000 0.000000 0.000008 0.000000 -0.000000 0.000000 -0.000000
+$definebone "ribbonBL_00_JNT" "ValveBiped.Bip01_Pelvis" 2.812237 1.365086 -3.886576 13.580877 -68.925163 -52.183964 0.000000 0.000000 0.000000 -0.000002 0.000000 0.000003
+$definebone "ribbonBL_01_JNT" "ribbonBL_00_JNT" 6.213345 -0.000025 0.000006 -0.000058 -1.848134 0.000058 0.000000 0.000000 0.000000 -0.000003 -0.000003 0.000005
+$definebone "ribbonBLA_00_JNT" "ribbonBL_01_JNT" 5.436115 0.028414 0.725339 0.331912 13.961319 5.819363 0.000002 0.000000 0.000000 -0.000003 0.000003 0.000005
+$definebone "ribbonBLA_02_JNT" "ribbonBLA_00_JNT" 29.100742 0.448669 -0.000024 -0.000061 2.327702 0.000121 -0.000001 0.000000 0.000000 -0.000002 0.000004 0.000005
+$definebone "ribbonBLA_04_JNT" "ribbonBLA_02_JNT" 29.107660 0.000290 -0.000040 0.000056 0.000690 -0.000162 0.000002 0.000000 0.000000 -0.000002 0.000002 0.000009
+$definebone "ribbonBLB_00_JNT" "ribbonBL_01_JNT" 5.348824 -0.192234 0.189062 -3.836583 -1.315630 5.556201 0.000000 0.000000 0.000000 -0.000002 -0.000003 0.000002
+$definebone "ribbonBLB_02_JNT" "ribbonBLB_00_JNT" 18.246902 0.000072 -0.000036 7.426621 0.000341 0.000119 0.000000 0.000000 0.000000 -0.000001 -0.000003 0.000003
+$definebone "ribbonBLB_04_JNT" "ribbonBLB_02_JNT" 30.430178 -0.000061 -0.497964 1.825042 -0.000003 -0.000056 0.000001 0.000000 0.000000 0.000001 -0.000003 0.000000
+$definebone "ribbonBLC_00_JNT" "ribbonBL_01_JNT" 5.096943 -0.765198 0.747558 -12.099264 -9.187093 5.771867 0.000004 0.000000 0.000000 -0.000003 0.000000 0.000005
+$definebone "ribbonBLC_02_JNT" "ribbonBLC_00_JNT" 29.093878 -0.000074 0.000014 -0.000003 0.000000 0.000005 0.000001 0.000000 0.000000 -0.000003 0.000000 0.000005
+$definebone "ribbonBLC_03_JNT" "ribbonBLC_02_JNT" 14.546928 -0.000038 0.000015 -0.000063 -0.000343 -0.000164 0.000000 0.000000 0.000000 -0.000003 0.000000 0.000007
+$definebone "ribbonBLC_04_JNT" "ribbonBLC_03_JNT" 14.546939 0.000042 -0.000002 -0.000061 0.000174 0.000010 0.000000 0.000000 -0.000001 -0.000003 0.000002 0.000009
+$definebone "ribbonBLD_00_JNT" "ribbonBL_01_JNT" 5.001698 -0.604105 -0.069619 -11.692008 -22.342546 5.013784 0.000000 0.000000 0.000000 -0.000002 -0.000002 0.000003
+$definebone "ribbonBLD_02_JNT" "ribbonBLD_00_JNT" 26.642715 -0.000154 0.363295 8.352175 -0.000346 0.000003 0.000000 0.000001 0.000000 -0.000001 -0.000003 0.000002
+$definebone "ribbonBLD_04_JNT" "ribbonBLD_02_JNT" 26.647667 -0.000003 -0.000006 -0.000001 -0.000691 -0.000056 0.000000 0.000000 0.000000 -0.000001 -0.000003 0.000000
+$definebone "ribbonBM_00_JNT" "ValveBiped.Bip01_Pelvis" 0.000005 1.239292 -4.669718 18.328806 -90.181610 -89.999931 0.000000 0.000000 0.000000 -0.000000 0.000001 0.000000
+$definebone "ribbonBM_01_JNT" "ribbonBM_00_JNT" 6.064270 -0.000017 0.000001 -0.000000 0.000173 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000001 0.000000
+$definebone "ribbonBR_00_JNT" "ValveBiped.Bip01_Pelvis" -2.812232 1.365070 -3.886575 13.580934 -111.074806 -127.815941 0.000000 0.000000 0.000000 -0.000000 0.000002 0.000000
+$definebone "ribbonBR_01_JNT" "ribbonBR_00_JNT" 6.213253 -0.000015 -0.000010 0.000056 -1.848131 0.000002 0.000000 -0.000002 -0.000001 -0.000002 0.000002 0.000003
+$definebone "ribbonBRA_00_JNT" "ribbonBR_01_JNT" 5.436184 0.028423 -0.725338 -0.331973 13.961266 -5.819302 -0.000002 0.000000 0.000000 -0.000002 0.000001 0.000003
+$definebone "ribbonBRA_02_JNT" "ribbonBRA_00_JNT" 29.100752 0.448715 -0.000090 0.000056 2.327984 -0.000111 0.000000 0.000000 0.000000 -0.000002 0.000003 0.000003
+$definebone "ribbonBRA_04_JNT" "ribbonBRA_02_JNT" 29.107660 0.000126 0.000165 -0.000002 0.000346 0.000174 -0.000002 0.000000 -0.000001 -0.000002 0.000001 0.000003
+$definebone "ribbonBRB_00_JNT" "ribbonBR_01_JNT" 5.348938 -0.192244 -0.189054 3.836581 -1.315624 -5.556196 0.000000 0.000000 0.000000 -0.000002 0.000002 0.000007
+$definebone "ribbonBRB_02_JNT" "ribbonBRB_00_JNT" 18.246819 0.000113 0.000015 -7.426680 0.000348 0.000062 0.000000 -0.000002 0.000000 -0.000001 0.000003 0.000003
+$definebone "ribbonBRB_04_JNT" "ribbonBRB_02_JNT" 30.430220 -0.000080 0.497979 -1.825043 0.000003 -0.000227 0.000000 -0.000002 0.000000 -0.000001 0.000005 0.000003
+$definebone "ribbonBRC_00_JNT" "ribbonBR_01_JNT" 5.097073 -0.765192 -0.747545 12.099319 -9.187091 -5.771803 0.000000 0.000000 0.000000 -0.000003 0.000000 0.000003
+$definebone "ribbonBRC_02_JNT" "ribbonBRC_00_JNT" 29.093769 -0.000051 -0.000010 -0.000003 0.000345 -0.000169 0.000000 -0.000002 0.000000 -0.000003 -0.000002 0.000003
+$definebone "ribbonBRC_04_JNT" "ribbonBRC_02_JNT" 29.093901 -0.000246 -0.000006 -0.000003 0.000343 -0.000169 0.000000 0.000000 0.000001 -0.000003 -0.000003 0.000005
+$definebone "ribbonBRD_00_JNT" "ribbonBR_01_JNT" 5.001785 -0.604099 0.069629 11.692004 -22.342543 -5.013775 0.000000 0.000001 0.000000 -0.000001 0.000002 0.000009
+$definebone "ribbonBRD_02_JNT" "ribbonBRD_00_JNT" 26.642685 -0.000130 -0.363283 -8.352179 -0.000684 0.000178 0.000000 0.000000 0.000001 -0.000002 0.000003 0.000007
+$definebone "ribbonBRD_04_JNT" "ribbonBRD_02_JNT" 26.647697 0.000192 0.000001 -0.000060 0.000347 0.000009 0.000000 -0.000001 0.000000 -0.000002 0.000003 0.000009
+$definebone "ribbonIBL_00_JNT" "ValveBiped.Bip01_Pelvis" 1.983144 1.357128 -4.545812 25.138008 -84.773804 -77.848473 0.000000 -0.000002 0.000000 -0.000000 -0.000003 0.000001
+$definebone "ribbonIBL_01_JNT" "ribbonIBL_00_JNT" 11.254288 -0.000067 0.000010 -0.000058 3.061825 0.000000 0.000000 0.000000 0.000000 -0.000001 -0.000004 0.000002
+$definebone "ribbonIBR_00_JNT" "ValveBiped.Bip01_Pelvis" -1.983136 1.357159 -4.545814 25.137264 -95.226105 -102.151443 -0.000004 0.000000 -0.000000 -0.000000 -0.000000 -0.000001
+$definebone "ribbonIBR_01_JNT" "ribbonIBR_00_JNT" 11.254345 0.000040 0.000004 -0.000000 3.062630 0.000055 0.000000 -0.000002 0.000000 -0.000000 -0.000004 -0.000001
+
+
+
+
+$ikchain "rhand" "ValveBiped.Bip01_R_Hand" knee 0.707 0.707 0
+$ikchain "lhand" "ValveBiped.Bip01_L_Hand" knee 0.707 0.707 0
+$ikchain "rfoot" "ValveBiped.Bip01_R_Foot" knee 0.707 -0.707 0
+$ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
+
+//The first value, 0.5, dictates how high the foot is off the ground. Generally values between 0-1 are acceptable enough, but you can go higher or go lower into the negatives if need be.
+//The second value, 0.1 can be left untouched (or even at 0). This controls the rotation of the foot and isn't really necessary.
+//Copied from CaptainBigButt's post: https://web.archive.org/web/20160608040725/https://facepunch.com/showthread.php?t=1439159
+$ikautoplaylock "rfoot" 0.2 0.1
+$ikautoplaylock "lfoot" 0.2 0.1
+
+//Rename reference_male to reference_female if you're using female pm/npc animation
+$sequence reference "anims/reference_female" fps 1
+
+$animation a_proportions "anims/proportions" subtract reference 0
+
+$sequence proportions a_proportions predelta autoplay
+
+$Sequence "ragdoll" {
+	"anims/proportions"
+	activity "ACT_DIERAGDOLL" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+
+
+$includemodel "f_anm.mdl"
+$includemodel "f_anm.mdl"
+$includemodel "f_gst.mdl"
+$includemodel "f_pst.mdl"
+$includemodel "f_shd.mdl"
+$includemodel "f_ss.mdl"
+$includemodel "humans/female_shared.mdl"
+$includemodel "humans/female_ss.mdl"
+$includemodel "humans/female_gestures.mdl"
+$includemodel "humans/female_postures.mdl"
+$includemodel "alyx_animations.mdl"
+$includemodel "alyx_postures.mdl"
+$includemodel "alyx_gestures.mdl"
+$includemodel "humans/female_shared.mdl"
+$includemodel "humans/female_ss.mdl"
+
+$collisionjoints "pm_physics.smd"
+{
+	$mass 90
+	$inertia 10
+	$damping 0.01
+	$rotdamping 0
+	$rootbone "ValveBiped.Bip01_Pelvis"
+
+
+	$jointconstrain "valvebiped.bip01_spine" x limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_spine" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine" z limit -20.00 10.00 0.00
+
+	$jointconstrain "valvebiped.bip01_spine1" x limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_spine1" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine1" z limit -20.00 10.00 0.00
+
+	$jointconstrain "valvebiped.bip01_spine2" x limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_spine2" y limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_spine2" z limit -30.00 45.00 0.00
+
+	$jointconstrain "valvebiped.bip01_spine4" x limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_spine4" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine4" z limit -20.00 10.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_clavicle" x limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_r_clavicle" y limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_r_clavicle" z limit -5.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_clavicle" x limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_l_clavicle" y limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_l_clavicle" z limit -5.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_upperarm" x limit -45.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_l_upperarm" y limit -45.00 50.00 0.00
+	$jointconstrain "valvebiped.bip01_l_upperarm" z limit -90.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_forearm" x limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_l_forearm" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_l_forearm" z limit -130.00 0.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_hand" x limit -45.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_l_hand" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_l_hand" z limit -30.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_upperarm" x limit -45.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_r_upperarm" y limit -50.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_r_upperarm" z limit -90.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_neck1" x limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_neck1" y limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_neck1" z limit -20.00 20.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_forearm" x limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_r_forearm" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_r_forearm" z limit -130.00 0.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_hand" x limit -45.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_r_hand" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_r_hand" z limit -30.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_thigh" x limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_r_thigh" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_r_thigh" z limit -60.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_calf" x limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_r_calf" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_r_calf" z limit 0.00 110.00 0.00
+
+	$jointconstrain "valvebiped.bip01_head1" x limit -45.00 45.00 0.00
+	$jointconstrain "valvebiped.bip01_head1" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_head1" z limit -15.00 15.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_thigh" x limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_l_thigh" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_l_thigh" z limit -60.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_calf" x limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_l_calf" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_l_calf" z limit 0.00 110.00 0.00
+
+	$jointconstrain "valvebiped.bip01_l_foot" x limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_l_foot" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_l_foot" z limit -30.00 30.00 0.00
+
+	$jointconstrain "valvebiped.bip01_r_foot" x limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_r_foot" y limit -30.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_r_foot" z limit -30.00 30.00 0.00
+}
+
+
